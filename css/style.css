@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    margin: 50px;
+    color: #eb651c;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+}
+
+input, select{
+    font-size: 18px;
+    padding: 0.5rem 1rem;
+    margin: 2px 0;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.btn{
+    cursor: pointer;
+    margin-top: 15px;
+    transition: 1s;
+}
+
+.btn:hover{
+    color: #eb651c;
+    transition: 0.3s;
+}
+
+.succes{
+    color: green;
+}
+
+.login{
+    color: blue;
+}
+
+.div_succes{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.liste_pets{
+    font-size: 24px;
+}
+
+.upper{
+    text-transform: uppercase;
+    margin-right: 10px;
+}
+
+.cap{
+    text-transform: capitalize;
+}
+
+.el{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    justify-content: center;
+}
+
+.x{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.div_name{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.quantity{
+    margin-left: 5px;
+}
+
+.div_pet{
+    margin: 10px 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pet_name{
+    margin-left: 5px;
+}
+
+.global{
+    margin: 100px auto;
+    font-size: 24px;
+}
+
+.user{
+    margin: 40px auto;
+    border: 1px solid black;
+    padding: 20px;
+    width: 500px;
+    border-radius: 5px;
+}
+
+.nav{
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.nav a{
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
